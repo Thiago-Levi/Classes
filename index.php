@@ -1,12 +1,9 @@
 <?php
 
 namespace src;
-require_once 'src/Conta.php';
-require_once 'src/Titular.php';
-require_once 'src/Endereco.php';
-require_once 'src/Pessoa.php';
-require_once 'src/Cpf.php';
-require_once 'src/Funcionario.php';
+require_once 'autoload.php';
+use Alura\Banco\Modelo\Funcionario;
+use Alura\Banco\Modelo\Cpf;
 
 // $minhaContaA = new Conta(
 //   new Titular(new Cpf("0283449950"), "Thiago Levi",

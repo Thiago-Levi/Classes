@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace Alura\Banco\Modelo;
 require_once 'Pessoa.php';
 require_once 'Cpf.php';
 

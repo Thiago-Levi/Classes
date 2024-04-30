@@ -1,5 +1,5 @@
 <?php
-namespace src;
+namespace Alura\Banco\Modelo;
 require_once 'Titular.php';
 
 Class Conta{
